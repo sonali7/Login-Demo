@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="regression suite(failed)">
+    <classes>
+      <class name="testCases.loginPage.Loginwithinvaliddata">
+        <methods>
+          <include name="beforem"/>
+          <include name="LoginTest"/>
+          <include name="afterm"/>
+        </methods>
+      </class> <!-- testCases.loginPage.Loginwithinvaliddata -->
+      <class name="testCases.loginPage.LoginwithValiddata">
+        <methods>
+          <include name="beforem"/>
+          <include name="afterm"/>
+          <include name="verifyloginwithvaliddata"/>
+        </methods>
+      </class> <!-- testCases.loginPage.LoginwithValiddata -->
+    </classes>
+  </test> <!-- regression suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
